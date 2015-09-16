@@ -11,6 +11,8 @@ using GZFramework.DB.Core;
 using GZFramework.DB.Lib;
 using GZFramework.UI.Dev.Common;
 using GZFramework.UI.Dev.LibForm;
+using _GZFramework.Demo.Business.Base;
+using _GZFramework.Demo.Models;
 
 namespace _GZFramework.Demo.SystemManagement
 {
