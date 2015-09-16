@@ -38,6 +38,10 @@
     <Reference Include="DevExpress.XtraGrid.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="GZFramework.DB.Core.v2.0, Version=2.0.9527.0, Culture=neutral, PublicKeyToken=eacfa3c0e7e71122, processorArchitecture=MSIL" />
+    <Reference Include="GZFramework.DB.v2.0, Version=2.0.9527.0, Culture=neutral, PublicKeyToken=eacfa3c0e7e71122, processorArchitecture=MSIL" />
+    <Reference Include="GZFramework.UI.Core.v2.0, Version=2.0.9527.0, Culture=neutral, PublicKeyToken=eacfa3c0e7e71122, processorArchitecture=MSIL" />
+    <Reference Include="GZFramework.UI.Dev.v2.0, Version=2.0.9527.0, Culture=neutral, PublicKeyToken=eacfa3c0e7e71122, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
@@ -56,26 +60,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\GZFramework\GZFramework.DB.Core\GZFramework.DB.Core.csproj">
-      <Project>{879158ef-ef85-4b55-91ef-21399e108cd7}</Project>
-      <Name>GZFramework.DB.Core</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\GZFramework\GZFramework.DB\GZFramework.DB.csproj">
-      <Project>{3986c490-ccd4-4328-b96b-1fba69cb7238}</Project>
-      <Name>GZFramework.DB</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\GZFramework\GZFramework.Library.Core\GZFramework.UI.Core.csproj">
-      <Project>{aa52a8ca-7844-45b0-bbd0-86ba98ab468a}</Project>
-      <Name>GZFramework.UI.Core</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\GZFramework\GZFramework.Library.Dev\GZFramework.UI.Dev.csproj">
-      <Project>{5729d5dc-a77a-4218-9aa5-066527399da9}</Project>
-      <Name>GZFramework.UI.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
     <ProjectReference Include="..\_GZFramework.Demo.Business\_GZFramework.Demo.Business.csproj">
       <Project>{17e1fce4-5ee1-411b-bb13-adc81aa6193f}</Project>
       <Name>_GZFramework.Demo.Business</Name>
