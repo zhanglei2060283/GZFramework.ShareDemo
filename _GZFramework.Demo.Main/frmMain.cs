@@ -176,6 +176,19 @@ namespace _GZFramework.Demo.Main
                 frm.Close();
         }
 
+        private void xtraTabbedMdiManager1_BeginFloating(object sender, DevExpress.XtraTabbedMdi.FloatingCancelEventArgs e)
+        {
+            e.ChildForm.StartPosition = FormStartPosition.CenterParent;
+        }
+
+        private void barButtonItem5_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            AboutBox1 about = new AboutBox1();
+            about.ShowInTaskbar = false;
+            about.ShowIcon = false;
+            about.ShowDialog();
+        }
+
       
     }
 }

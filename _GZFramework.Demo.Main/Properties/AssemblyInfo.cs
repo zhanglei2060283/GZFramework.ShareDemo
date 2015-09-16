@@ -6,10 +6,10 @@ using System.Runtime.InteropServices;
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("Demo.Main")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("此Demo仅用于熟悉并GZFramework开发框架\r\n如有疑问或建议，请联系作者QQ：382237285")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Demo.Main")]
+[assembly: AssemblyCompany("GarsonZhang")]
+[assembly: AssemblyProduct("GZFramework v2.0 Share Demo")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
