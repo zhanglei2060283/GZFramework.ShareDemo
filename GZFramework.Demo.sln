@@ -15,6 +15,42 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_GZFramework.Demo.Library",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_GZFramework.Demo.Models", "_GZFramework.Demo.Models\_GZFramework.Demo.Models.csproj", "{32E5F6A4-4D24-40E8-B62E-9BE380DB37EF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "数据库脚本", "数据库脚本", "{55A90302-EC61-46FA-965B-B1CFBE3A3F01}"
+	ProjectSection(SolutionItems) = preProject
+		数据库脚本\Chapter-01.sql = 数据库脚本\Chapter-01.sql
+		数据库脚本\创建数据库.sql = 数据库脚本\创建数据库.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug.Images", "Debug.Images", "{902DC86B-CB8F-4271-919A-4541189BEE11}"
+	ProjectSection(SolutionItems) = preProject
+		Debug\images\datanav_First_16x16.png = Debug\images\datanav_First_16x16.png
+		Debug\images\datanav_Last_16x16.png = Debug\images\datanav_Last_16x16.png
+		Debug\images\datanav_Next_16x16.png = Debug\images\datanav_Next_16x16.png
+		Debug\images\datanav_Previous_16x16.png = Debug\images\datanav_Previous_16x16.png
+		Debug\images\Function_Account_16x16.png = Debug\images\Function_Account_16x16.png
+		Debug\images\Function_Account_64x64.png = Debug\images\Function_Account_64x64.png
+		Debug\images\Function_AppFlow_16x16.png = Debug\images\Function_AppFlow_16x16.png
+		Debug\images\Function_AppFlow_64x64.png = Debug\images\Function_AppFlow_64x64.png
+		Debug\images\Function_BaseData_16x16.png = Debug\images\Function_BaseData_16x16.png
+		Debug\images\Function_BaseData_64x64.png = Debug\images\Function_BaseData_64x64.png
+		Debug\images\Function_Role_16x16.png = Debug\images\Function_Role_16x16.png
+		Debug\images\Function_Role_64x64.png = Debug\images\Function_Role_64x64.png
+		Debug\images\Module_Dictionary_16x16.png = Debug\images\Module_Dictionary_16x16.png
+		Debug\images\Module_System_16x16.png = Debug\images\Module_System_16x16.png
+		Debug\images\ribbonitem__Add_32x32.png = Debug\images\ribbonitem__Add_32x32.png
+		Debug\images\ribbonitem_Add_32x32.png = Debug\images\ribbonitem_Add_32x32.png
+		Debug\images\ribbonitem_Approval_32x32.png = Debug\images\ribbonitem_Approval_32x32.png
+		Debug\images\ribbonitem_Delete_32x32.png = Debug\images\ribbonitem_Delete_32x32.png
+		Debug\images\ribbonitem_Edit_32x32.png = Debug\images\ribbonitem_Edit_32x32.png
+		Debug\images\ribbonitem_Export_32x32.png = Debug\images\ribbonitem_Export_32x32.png
+		Debug\images\ribbonitem_Preview_32x32.png = Debug\images\ribbonitem_Preview_32x32.png
+		Debug\images\ribbonitem_Refresh_32x32.png = Debug\images\ribbonitem_Refresh_32x32.png
+		Debug\images\ribbonitem_Return_32x32.png = Debug\images\ribbonitem_Return_32x32.png
+		Debug\images\ribbonitem_Save_32x32.png = Debug\images\ribbonitem_Save_32x32.png
+		Debug\images\ribbonitem_SaveAndClose_32x32.png = Debug\images\ribbonitem_SaveAndClose_32x32.png
+		Debug\images\ribbonitem_View_32x32.png = Debug\images\ribbonitem_View_32x32.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

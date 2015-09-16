@@ -56,12 +56,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmMyUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMyUser.designer.cs">
+      <DependentUpon>frmMyUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Management.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\_GZFramework.Demo.Business\_GZFramework.Demo.Business.csproj">
-      <Project>{17e1fce4-5ee1-411b-bb13-adc81aa6193f}</Project>
+      <Project>{7d5cc055-b572-4898-bba8-8dd40c8e9bc6}</Project>
       <Name>_GZFramework.Demo.Business</Name>
     </ProjectReference>
     <ProjectReference Include="..\_GZFramework.Demo.Common\_GZFramework.Demo.Common.csproj">
@@ -78,6 +84,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmMyUser.resx">
+      <DependentUpon>frmMyUser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
