@@ -19,6 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "数据库脚本", "数据�
 	ProjectSection(SolutionItems) = preProject
 		数据库脚本\Chapter-02新建单表(用户表).sql = 数据库脚本\Chapter-02新建单表(用户表).sql
 		数据库脚本\Chapter-03新建商品入库表(主从表).sql = 数据库脚本\Chapter-03新建商品入库表(主从表).sql
+		数据库脚本\Chapter-03流水单号生成.sql = 数据库脚本\Chapter-03流水单号生成.sql
 		数据库脚本\创建数据库.sql = 数据库脚本\创建数据库.sql
 	EndProjectSection
 EndProject
