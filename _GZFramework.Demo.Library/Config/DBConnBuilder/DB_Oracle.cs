@@ -11,7 +11,7 @@ namespace _GZFramework.Demo.Library.Config.DBConnBuilder
        public string ProviderName
         {
             get;
-            set;
+            set; 
         }
 
        public DB_Oracle()
