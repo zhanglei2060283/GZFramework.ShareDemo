@@ -44,14 +44,20 @@ namespace _GZFramework.Demo.Library.Config.DBConnBuilder
         /// </summary>
         public bool Trusted_Connection { get; set; }
 
-
+        public string ServerFull
+        {
+            get
+            {
+                return Server + (Port == "1433" ? "" : "," + Port);
+            }
+        }
         public  string GetConnectionStr()
         {
             string constr = "";
             if (Trusted_Connection)
-                constr = String.Format("Server = {0};Database = {1};Trusted_Connection = True", Server + "," + Port, DataBase);
+                constr = String.Format("Server = {0};Database = {1};Trusted_Connection = True", ServerFull, DataBase);
             else
-                constr = String.Format("Server = {0};Database = {1};User ID = {2};Password = {3};Trusted_Connection = False", Server + "," + Port, DataBase, UserID, Password);
+                constr = String.Format("Server = {0};Database = {1};User ID = {2};Password = {3};Trusted_Connection = False", ServerFull, DataBase, UserID, Password);
 
             return constr;
         }
@@ -59,9 +65,9 @@ namespace _GZFramework.Demo.Library.Config.DBConnBuilder
         {
             string constr = "";
             if (Trusted_Connection)
-                constr = String.Format("Server = {0};Database = {1};Trusted_Connection = True", Server + "," + Port, DBName);
+                constr = String.Format("Server = {0};Database = {1};Trusted_Connection = True", ServerFull, DBName);
             else
-                constr = String.Format("Server = {0};Database = {1};User ID = {2};Password = {3};Trusted_Connection = False", Server + "," + Port, DBName, UserID, Password);
+                constr = String.Format("Server = {0};Database = {1};User ID = {2};Password = {3};Trusted_Connection = False", ServerFull, DBName, UserID, Password);
 
             return constr;
         }
