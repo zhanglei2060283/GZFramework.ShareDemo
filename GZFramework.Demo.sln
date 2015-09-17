@@ -17,8 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_GZFramework.Demo.Models", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "数据库脚本", "数据库脚本", "{55A90302-EC61-46FA-965B-B1CFBE3A3F01}"
 	ProjectSection(SolutionItems) = preProject
-		数据库脚本\Chapter-01.sql = 数据库脚本\Chapter-01.sql
-		Chapter-02新建商品入库表(主从表).sql = Chapter-02新建商品入库表(主从表).sql
+		数据库脚本\Chapter-02新建单表(用户表).sql = 数据库脚本\Chapter-02新建单表(用户表).sql
+		Chapter-03新建商品入库表(主从表).sql = Chapter-03新建商品入库表(主从表).sql
 		数据库脚本\创建数据库.sql = 数据库脚本\创建数据库.sql
 	EndProjectSection
 EndProject
