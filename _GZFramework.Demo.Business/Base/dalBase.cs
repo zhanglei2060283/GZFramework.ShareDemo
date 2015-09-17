@@ -17,9 +17,8 @@ namespace _GZFramework.Demo.Business.Base
         //获取流水单号
         public override string GetDataSN(IDatabase db, string sDocCode, int sLength)
         {
-            //return sDocCode + db.ExecuteScalarSP<string>("sys_GetDataSN",
-            //    new { DataCode = sDocCode, Length = sLength });
-            throw new NotImplementedException();
+            return sDocCode + db.ExecuteScalarSP<string>("sys_GetDataSN",
+                new { DataCode = sDocCode, Length = sLength });
         }
 
 
@@ -32,10 +31,8 @@ namespace _GZFramework.Demo.Business.Base
         //获取系统时间，建议从服务器获取
         public override DateTime GetServerTime(IDatabase db)
         {
-            //string sql = "SELECT GETDATE()";
-            //return db.ExecuteScalar<DateTime>(sql);
-
-            return DateTime.Now;
+            string sql = "SELECT GETDATE()";
+            return db.ExecuteScalar<DateTime>(sql);
         }
     
     }

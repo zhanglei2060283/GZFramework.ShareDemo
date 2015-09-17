@@ -42,12 +42,12 @@
             this.txtPassword = new DevExpress.XtraEditors.TextEdit();
             this.LCGroup_Edit = new DevExpress.XtraLayout.LayoutControlGroup();
             this.LCItem_Account = new DevExpress.XtraLayout.LayoutControlItem();
-            this.LCItem_Password = new DevExpress.XtraLayout.LayoutControlItem();
             this.LCItem_UserName = new DevExpress.XtraLayout.LayoutControlItem();
-            this.LCItem_Phone = new DevExpress.XtraLayout.LayoutControlItem();
-            this.LCItem_Email = new DevExpress.XtraLayout.LayoutControlItem();
+            this.LCItem_Password = new DevExpress.XtraLayout.LayoutControlItem();
             this.LCItem_IsAdmain = new DevExpress.XtraLayout.LayoutControlItem();
             this.LCItem_IsLock = new DevExpress.XtraLayout.LayoutControlItem();
+            this.LCItem_Phone = new DevExpress.XtraLayout.LayoutControlItem();
+            this.LCItem_Email = new DevExpress.XtraLayout.LayoutControlItem();
             this.LCItem_CreateUser = new DevExpress.XtraLayout.LayoutControlItem();
             this.LCItem_CreateDate = new DevExpress.XtraLayout.LayoutControlItem();
             this.LCItem_LastUpdateUser = new DevExpress.XtraLayout.LayoutControlItem();
@@ -109,12 +109,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtPassword.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LCGroup_Edit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LCItem_Account)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LCItem_Password)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LCItem_UserName)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LCItem_Phone)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LCItem_Email)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LCItem_Password)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LCItem_IsAdmain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LCItem_IsLock)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LCItem_Phone)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LCItem_Email)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LCItem_CreateUser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LCItem_CreateDate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LCItem_LastUpdateUser)).BeginInit();
@@ -360,16 +360,6 @@
             this.LCItem_Account.Text = "账号";
             this.LCItem_Account.TextSize = new System.Drawing.Size(48, 14);
             // 
-            // LCItem_Password
-            // 
-            this.LCItem_Password.Control = this.txtPassword;
-            this.LCItem_Password.CustomizationFormText = "密码";
-            this.LCItem_Password.Location = new System.Drawing.Point(0, 24);
-            this.LCItem_Password.Name = "LCItem_Password";
-            this.LCItem_Password.Size = new System.Drawing.Size(236, 24);
-            this.LCItem_Password.Text = "密码";
-            this.LCItem_Password.TextSize = new System.Drawing.Size(48, 14);
-            // 
             // LCItem_UserName
             // 
             this.LCItem_UserName.Control = this.txtUserName;
@@ -380,25 +370,15 @@
             this.LCItem_UserName.Text = "名称";
             this.LCItem_UserName.TextSize = new System.Drawing.Size(48, 14);
             // 
-            // LCItem_Phone
+            // LCItem_Password
             // 
-            this.LCItem_Phone.Control = this.txtPhone;
-            this.LCItem_Phone.CustomizationFormText = "电话";
-            this.LCItem_Phone.Location = new System.Drawing.Point(0, 48);
-            this.LCItem_Phone.Name = "LCItem_Phone";
-            this.LCItem_Phone.Size = new System.Drawing.Size(236, 24);
-            this.LCItem_Phone.Text = "电话";
-            this.LCItem_Phone.TextSize = new System.Drawing.Size(48, 14);
-            // 
-            // LCItem_Email
-            // 
-            this.LCItem_Email.Control = this.txtEmail;
-            this.LCItem_Email.CustomizationFormText = "Email";
-            this.LCItem_Email.Location = new System.Drawing.Point(236, 48);
-            this.LCItem_Email.Name = "LCItem_Email";
-            this.LCItem_Email.Size = new System.Drawing.Size(237, 24);
-            this.LCItem_Email.Text = "Email";
-            this.LCItem_Email.TextSize = new System.Drawing.Size(48, 14);
+            this.LCItem_Password.Control = this.txtPassword;
+            this.LCItem_Password.CustomizationFormText = "密码";
+            this.LCItem_Password.Location = new System.Drawing.Point(0, 24);
+            this.LCItem_Password.Name = "LCItem_Password";
+            this.LCItem_Password.Size = new System.Drawing.Size(236, 24);
+            this.LCItem_Password.Text = "密码";
+            this.LCItem_Password.TextSize = new System.Drawing.Size(48, 14);
             // 
             // LCItem_IsAdmain
             // 
@@ -419,6 +399,26 @@
             this.LCItem_IsLock.Size = new System.Drawing.Size(119, 24);
             this.LCItem_IsLock.Text = " ";
             this.LCItem_IsLock.TextSize = new System.Drawing.Size(48, 14);
+            // 
+            // LCItem_Phone
+            // 
+            this.LCItem_Phone.Control = this.txtPhone;
+            this.LCItem_Phone.CustomizationFormText = "电话";
+            this.LCItem_Phone.Location = new System.Drawing.Point(0, 48);
+            this.LCItem_Phone.Name = "LCItem_Phone";
+            this.LCItem_Phone.Size = new System.Drawing.Size(236, 24);
+            this.LCItem_Phone.Text = "电话";
+            this.LCItem_Phone.TextSize = new System.Drawing.Size(48, 14);
+            // 
+            // LCItem_Email
+            // 
+            this.LCItem_Email.Control = this.txtEmail;
+            this.LCItem_Email.CustomizationFormText = "Email";
+            this.LCItem_Email.Location = new System.Drawing.Point(236, 48);
+            this.LCItem_Email.Name = "LCItem_Email";
+            this.LCItem_Email.Size = new System.Drawing.Size(237, 24);
+            this.LCItem_Email.Text = "Email";
+            this.LCItem_Email.TextSize = new System.Drawing.Size(48, 14);
             // 
             // LCItem_CreateUser
             // 
@@ -828,12 +828,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtPassword.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LCGroup_Edit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LCItem_Account)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LCItem_Password)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LCItem_UserName)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LCItem_Phone)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LCItem_Email)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LCItem_Password)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LCItem_IsAdmain)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LCItem_IsLock)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LCItem_Phone)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LCItem_Email)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LCItem_CreateUser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LCItem_CreateDate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LCItem_LastUpdateUser)).EndInit();

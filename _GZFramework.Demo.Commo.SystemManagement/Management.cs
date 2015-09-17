@@ -17,6 +17,7 @@ namespace _GZFramework.Demo.SystemManagement
             //FunctionCollection.AddFunction(typeof(frmGoodsIn), "商品入库", "");
 
             FunctionCollection.AddFunction(typeof(frmMyUser), "用户管理", "Function_Account");
+            FunctionCollection.AddFunction(typeof(frmGoodsIn), "商品入库", "");
         }
     }
 }
