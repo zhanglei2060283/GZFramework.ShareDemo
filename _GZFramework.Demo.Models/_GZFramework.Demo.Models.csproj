@@ -30,7 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GZFramework.DB.v2.0, Version=2.0.9527.0, Culture=neutral, PublicKeyToken=eacfa3c0e7e71122, processorArchitecture=MSIL" />
+    <Reference Include="GZFramework.DB.Core.v2.0">
+      <HintPath>..\packages\GZFramework.DB.2.0.0\lib\GZFramework.DB.Core.v2.0.dll</HintPath>
+    </Reference>
+    <Reference Include="GZFramework.DB.v2.0">
+      <HintPath>..\packages\GZFramework.DB.2.0.0\lib\GZFramework.DB.v2.0.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,6 +48,9 @@
     <Compile Include="dt_MyUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="tb_GoodsIn.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

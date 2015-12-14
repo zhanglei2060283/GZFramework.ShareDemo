@@ -39,10 +39,18 @@
     <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="GZFramework.DB.Core.v2.0, Version=2.0.9527.0, Culture=neutral, PublicKeyToken=eacfa3c0e7e71122, processorArchitecture=MSIL" />
-    <Reference Include="GZFramework.DB.v2.0, Version=2.0.9527.0, Culture=neutral, PublicKeyToken=eacfa3c0e7e71122, processorArchitecture=MSIL" />
-    <Reference Include="GZFramework.UI.Core.v2.0, Version=2.0.9527.0, Culture=neutral, PublicKeyToken=eacfa3c0e7e71122, processorArchitecture=MSIL" />
-    <Reference Include="GZFramework.UI.Dev.v2.0, Version=2.0.9527.0, Culture=neutral, PublicKeyToken=eacfa3c0e7e71122, processorArchitecture=MSIL" />
+    <Reference Include="GZFramework.DB.Core.v2.0">
+      <HintPath>..\packages\GZFramework.DB.2.0.0\lib\GZFramework.DB.Core.v2.0.dll</HintPath>
+    </Reference>
+    <Reference Include="GZFramework.DB.v2.0">
+      <HintPath>..\packages\GZFramework.DB.2.0.0\lib\GZFramework.DB.v2.0.dll</HintPath>
+    </Reference>
+    <Reference Include="GZFramework.UI.Core.v2.0">
+      <HintPath>..\packages\GZFramework.UI.2.0.0\lib\GZFramework.UI.Core.v2.0.dll</HintPath>
+    </Reference>
+    <Reference Include="GZFramework.UI.Dev.v2.0">
+      <HintPath>..\packages\GZFramework.UI.2.0.0\lib\GZFramework.UI.Dev.v2.0.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
@@ -143,6 +151,9 @@
       <DependentUpon>uc_SQLiteConfig.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
